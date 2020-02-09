@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+	<test thread-count="1" name="Login">
+		<classes>
+			<class
+				name="paytmCashBackTestCases.WP_Verify_login_Functionality" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="N18Store">
+		<classes>
+			<class
+				name="testCases.WP_VerifyStorePageFunctionalityForNetworkEighteen" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="RwStore">
+		<classes>
+			<class
+				name="testCases.WP_VerifyStorePageFunctionalityForRewards" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="MissingCb">
+		<classes>
+			<class name="testCases.WP_VerifyMissingCashBackFunctionality" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="CBStore">
+		<classes>
+			<class
+				name="testCases.WP_VerifyStorePageFunctionalityForCashBack" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="SignUP">
+		<classes>
+			<class
+				name="testCases.WP_VerifySignUpFunctionalityThroughSignUpForm" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="PaymentCBRW">
+		<classes>
+			<class
+				name="testCases.WP_VerifyRedirectionOfRewardsAndCashBackInPaymentsLeftNav" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="FGTPWD">
+		<classes>
+			<class name="testCases.WP_VerifyForgotPasswordFunctionality" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="testCases.WP_VerifyContactUsPageFunctionality" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="MyEarnings">
+		<classes>
+			<class
+				name="testCases.WP_VerifyDefaultContentOfMyEarningsPageAndPaymentForm" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="1" name="Payment">
+		<classes>
+			<class
+				name="testCases.WP_VerifyPaymentProcessingOfBothCashbackAndRewardsInMyEarnings" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="1" name="AccountSettings">
+		<classes>
+			<class
+				name="testCases.WP_VerifyAccountSettingsPageFunctionality" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="1" name="HowItWorks">
+		<classes>
+			<class
+				name="testCases.WP_VerifyHowItWorksPageFunctionality" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

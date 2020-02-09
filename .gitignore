@@ -1,0 +1,69 @@
+/.metadata/*
+/.recommenders/*
+/RemoteSystemsTempFiles/*
+
+
+/PPS_ATM_POM_Hybrid_Framework/results/*
+/PPS_ATM_POM_Hybrid_Framework/results/*
+/PPS_ATM_POM_Hybrid_Framework/test-output/*
+/PPS_ATM_POM_Hybrid_Framework/project_runnable_jar/*
+/PPS_ATM_POM_Hybrid_Framework/build/*
+/PPS_ATM_POM_Hybrid_Framework/sauce_results/*
+/PPS_ATM_POM_Hybrid_Framework/sauce_logs/*
+/PPS_ATM_POM_Hybrid_Framework/logs/*
+/PPS_ATM_POM_Hybrid_Framework/testng_testsuite_xml/MyDev.xml
+/PPS_ATM_POM_Hybrid_Framework/src/com/pps/atm/pom/devarea/MyDev_Area_Aswin.java
+/PPS_ATM_POM_Hybrid_Framework/src/com/pps/atm/pom/devarea/MyDev_Area_Local_mallik.java
+/PPS_ATM_POM_Hybrid_Framework/src/com/pps/atm/pom/devarea/MyDev_Area_Local.java
+/PPS_ATM_POM_Hybrid_Framework/src/com/pps/atm/pom/devarea/MyDev_Area.java
+/PPS_ATM_POM_Hybrid_Framework/src/com/pps/atm/pom/devarea/Backlog_Test.java
+/PPS_ATM_POM_Hybrid_Framework/src/com/pps/atm/pom/devarea/*
+/PPS_ATM_POM_Hybrid_Framework/testng_testsuite_xml/MyDev.xml
+/.metadata/
+/.recommenders/
+/PPS_ATM_POM_Hybrid_Framework/dynamic_json_test_data/*
+# Compiled class file
+*.class
+
+# Log file
+*.log
+*.pdf
+*.html
+*.jpg
+*.jpeg
+*.html
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Ignore eclipse dir
+RemoteSystemsTempFiles
+.recommenders
+.metadata
+.project
+JavaScript Resources
+Deployed Resources
+JAX-WS Web Services
+Deployment Descriptor
+Java Resources
+webapp
+target
+test-output
+.*pdf
+
+# Ignore intellij dir
+.idea

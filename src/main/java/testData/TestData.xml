@@ -1,0 +1,120 @@
+<TestDataForWordPress>
+	<BasedOnFunctionality>
+		<SignIn>
+		<ValidUserId>cktest@gmail.com</ValidUserId>
+		<ValidPassword>ppounds</ValidPassword>
+		<InvalidUserId>ckkktest@gmail.com</InvalidUserId>
+		<InvalidFormatEmailID>123455</InvalidFormatEmailID>
+		<InvalidPassword>pppounds</InvalidPassword>
+		<ErrMsgPassword></ErrMsgPassword>
+		<ErrMsgEmail></ErrMsgEmail>
+		<minCharPassword>12345</minCharPassword>
+		<category>PPS ATM POPULAR TODAY FIRST LEVEL MENU CATEGORY</category>
+		<category1>Fashion</category1>
+		<subCategory>Fashion</subCategory>
+		<searchStore>Amazon</searchStore>
+		<searchStoreViewAll>Offers</searchStoreViewAll>
+		<searchVoucherViewAll>of</searchVoucherViewAll>
+	</SignIn>
+	<SignUP>
+		<fullName>WP Automators</fullName>
+		<dynamicEmail>@automation.com</dynamicEmail>
+		<dynamicMobile>6789</dynamicMobile>
+		<password>ppounds</password>
+		<errorMsgMobileNumber>Please enter valid mobile number</errorMsgMobileNumber>
+		<placeHolderMobileNumber>Enter Mobile Number:*</placeHolderMobileNumber>
+		<errorEmailAddress>Please enter a valid email</errorEmailAddress>
+		<errorFullName>Please type your name</errorFullName>
+		<errorMsgAccountExist>An account with this Email ID already exists!</errorMsgAccountExist>
+		<errormsgPhoneExist>Number already in use. Please enter different number.</errormsgPhoneExist>
+		<category>PPS ATM POPULAR TODAY FIRST LEVEL MENU CATEGORY</category>
+		<minChar>a</minChar>
+	</SignUP>
+	<Generic>
+		<category>PPS ATM POPULAR TODAY FIRST LEVEL MENU CATEGORY</category>
+		<category1>Fashion</category1>
+		<ValidUserId>rahul12august@gmail.com</ValidUserId>
+		<alphaunumeric>abjskj1526</alphaunumeric>
+		<specialCharacter>!@#%^*()|</specialCharacter>
+		<invalidPhoneNumber>5432167890</invalidPhoneNumber>
+		<pageTitle>Paytmcashback</pageTitle>
+		<registeredEmailId>cktest@gmail.com</registeredEmailId>
+		<invalidEmailId1>1111aass</invalidEmailId1>
+		<invalidEmailId2>@jhgh.com</invalidEmailId2>
+		<invalidEmailId3>aba@bcn@a.com</invalidEmailId3>
+		<invalidFullName1>12345612345</invalidFullName1>
+		<invalidFullName2>!@#$%^*()|</invalidFullName2>
+		<minCharPassword>Password must be at least 6 characters</minCharPassword>
+		<minCharPassword1>12345</minCharPassword1>
+		<password>ppounds</password>
+		<incorrectPassword>ppoundss</incorrectPassword>
+		<phoneNumberAlreadyRegistered>7777777777</phoneNumberAlreadyRegistered>
+		<category2>Fashion</category2>
+		<searchStore>Amazon</searchStore>
+		<searchStoreViewAll>Offers</searchStoreViewAll>
+		<searchVoucherViewAll>of</searchVoucherViewAll>
+		<maxLength>50</maxLength>
+		<minLengthFullName>2</minLengthFullName>
+		<minLengthPassword>6</minLengthPassword>
+		<maxLengthPassword>20</maxLengthPassword>
+	</Generic>
+	<AccountSettings>
+		<name>Rahul</name>
+		<errorMessageFullNameMaxLength> The fullname may not be greater than 50 characters. </errorMessageFullNameMaxLength>
+		<fullNameMoreThanFiftyChar>ghghghghghghgghghghghghghgghghghgghghgjgjhhjhjhjhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhzzzzzzzzza</fullNameMoreThanFiftyChar>
+		<minChar>a</minChar>
+	</AccountSettings>
+	<ContactUs>
+		<initialEmail>cktest@gmail.com</initialEmail>
+		<laterEmail>abc@gmail.com</laterEmail>
+		<initialName>WP Automators</initialName>
+		<laterName>Automation Ninja</laterName>
+		<initialMessage>Hello This is Word Press Automation. Kindly Ignore</initialMessage>
+		<laterMessage>Hello Word Press Automation Is In Progress. Hope It will gets completed soon</laterMessage>
+	</ContactUs>
+	<ForgotPassword>
+		<forgotPasswordEmail>abc@abc.com</forgotPasswordEmail>
+	</ForgotPassword>
+	<PaymentProcessing>
+		<thresholdAmount>250.00</thresholdAmount>
+		<lessThanThresholdAmount>249</lessThanThresholdAmount>
+		<combineCashbackAmount1>200</combineCashbackAmount1>
+		<combineCashbackAmount2>50</combineCashbackAmount2>
+		<moreThanThresholdAmount>500</moreThanThresholdAmount>
+		<retailerName>Amazon India</retailerName>
+		<bankName>ICICI Bank</bankName>
+		<accountHolderName>Julie Tiwari</accountHolderName>
+		<ifscCode>ICIC0000789</ifscCode>
+		<bankAccountNumber>123401123456</bankAccountNumber>
+		<bankBranchName>Madivala</bankBranchName>
+		<cashBackType>Cashback</cashBackType>
+		<RewardsType>Rewards</RewardsType>
+		<orderAmount>100000</orderAmount>
+		<totalOrderAmount>1000.00</totalOrderAmount>
+		<charityName>Action for Brazils Children</charityName>
+		<sortCode>678276</sortCode>
+		<paymentOptions>UK Bank Payment (BACS),Paypal,Bank Payment (NEFT),Paytm Wallet,MobiKwik Wallet,PayUmoney Wallet,Oxigen Wallet,Citrus Wallet,Amazon Gift Card,Flipkart Gift Card,Snapdeal Gift Card,Jabong Gift Card,Dominos Gift Card,Bank Payment</paymentOptions>
+	</PaymentProcessing>
+	<MissingCashback>
+		<amount>5000</amount>
+		<transactionID>/-.#5645677868</transactionID>
+		<couponCode>Testing</couponCode>
+		<transactionDetails>Dear Partner, I have not got my Cashback Yet. Please check into this.</transactionDetails>
+		<retailerName>Amazon India</retailerName>
+		<itemToBeSearched>amazon</itemToBeSearched>
+		<itemToBeSearched1>flipkart</itemToBeSearched1>
+		<itemToBeSearched2>myntra</itemToBeSearched2>
+	</MissingCashback>
+	<Admin>
+		<partnerType>ICICI Cashback (Partner 2)</partnerType>
+		<userName>dev</userName>
+		<password>ppbeta3D</password>
+	</Admin>
+	<StoreCategory>
+		<shortDescriptionSortByNewest>Test Automation Short Desc</shortDescriptionSortByNewest>
+		<shortDescriptionSortByPopularity></shortDescriptionSortByPopularity>
+		<shortDescriptionSortByPercent>PPS ATM ACTIVATE CASHBACK SD</shortDescriptionSortByPercent>
+		<shortDescriptionSortByAmount>PPS ATM ACTIVATE CASHBACK SD</shortDescriptionSortByAmount>
+	</StoreCategory>
+	</BasedOnFunctionality>
+</TestDataForWordPress>
